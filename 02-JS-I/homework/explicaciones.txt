@@ -1,0 +1,28 @@
+1. En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+ * Variables
+ Son elementos en donde guardamos datos según las necesidades del programa, es decir, son como 
+ cajas en los que nosotros guardamos los valores como textos o números que despues usaremos.
+
+ * Strings
+ Son cadenas de texto, siempre estan entre comillas, ya sean dobles o simples (dentro de estas comillas
+ los numeros también son visto como texto).
+ Por ejemplo:
+ "Hola"
+ "¿Que edad tienes?"
+ "¿Tengo 20 años?"
+
+ * Funciones (argumentos, `return`)
+ Como su nombre lo indica se usan para realizar diferentes funciones que se repetiran a lo largo de nuestros
+ programas.
+ Los argumentos son usados para darle información que nos ayudará a obtener un resultado que obtenemos a traves
+ de la palabra clave return, al activarse el return se detiene la función y no sigue con el resto del codigo
+ , si es que lo hay.
+
+ * Declaraciones `if`
+ Sirven para verificar ciertas condiciones que nosotros le demos, de esa forma nos devolvera un valor 
+ o realizará una acción, según nuestro codigo. 
+
+ * Valores booleanos (`true`, `false`)
+Son valores binarios, es decir solo tienen dos valores, estos son true que representa el 1 en binario y false
+que representa el 0.
