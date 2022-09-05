@@ -1,0 +1,24 @@
+1. En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes 
+conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará 
+a descubrir rápidamente cualquier agujero en tu comprensión.
+
+* `for`: 
+Permite crear un bucle que se cierra cuando la condición impuesta no se cumpla (sea falsa), 
+se empieza declarando una variable y se debe agregar una sentencia que modifique esta misma para 
+que se llegue a la condición, como un incremento.
+Su sintaxis es:
+    for(declaraciónDevariable; condición; Incremento){
+        codigo a ejecutar por cada loop.
+    }
+
+* `&&`: 
+Operador logico que traduce a "AND", da como resultado true cuando ambos valores o expresiones 
+que se comparan también lo son, en los demás casos da false. 
+* `||`
+Operador logico que traduce a "OR" , da como resultado false cuando ambos valores o expresiones
+comparadas tambien lo son, en los demas casos da true.
+*`!`
+Operador logico que traduce a "NOT", da como resultado el valor opuesto al que se asigna.
+Por ejemplo: 
+    x = 3
+    !(x === 3)// Da false

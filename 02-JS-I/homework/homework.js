@@ -62,7 +62,7 @@ function sonIguales(x, y) {
   // Tu código:
   //var igualdad = x==y ? true : false;
   //return igualdad;
-  return x==y;
+  return x===y;
 }
 
 function tienenMismaLongitud(str1, str2) {
@@ -214,7 +214,7 @@ function esVocal(letra){
   //que no se puede procesar el dato mediante el mensaje "Dato incorrecto".
   // Si no es vocal, tambien debe devolver "Dato incorrecto".
   //Escribe tu código aquí
-  if(letra.length==1 && letra.match(/[aeiou]/)){
+  if(letra.length==1 && "aeiou".includes(letra)){
       return "Es vocal";
   }
   return "Dato incorrecto"
