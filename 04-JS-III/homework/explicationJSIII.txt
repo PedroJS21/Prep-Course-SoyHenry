@@ -1,0 +1,21 @@
+1. En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+* Arrays:
+Es un objeto que almacena colecciones de datos, es decir, a diferencia de una variable, se pueden declarar 
+y añadir más de un elemento dentro de él y en JS especificamente un array puede contener elementos de tipos
+de datos diferentes. 
+
+Sintaxis:
+let            fruta      =  [manzana, pera, melocoton]
+declaración  / nombre     /  signo / elementos incluidos al declarar
+de variable  / del array  / igual  /dentro de corchetes []
+
+indice de un arreglo (Empieza siempre en 0):
+[manzana, pera, melocoton]
+    0       1       2
+
+
+Tiene multiples operabilidades como acceder a ellos a travez de su indice
+o el uso de su propiedad .length que da la cantidad de elementos,
+metodos como .push(elemento) y .pop() que agregan y eliminan elementos al final del array, respectivamente,
+o .unshift(elemento) y shift() que hacen lo mismo solo que al inicio del array. 
