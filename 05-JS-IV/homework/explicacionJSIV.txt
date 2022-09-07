@@ -1,0 +1,50 @@
+1. En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+	* Objetos:
+	Son colecciones de propiedades y estas se conforman de su clave y valor respectivo (key:value),
+	por ejemplo, el array es una colección de solo valores, pero estos valores son invocados con un indice
+	que esta implicito, en cambio en la colección nosotros declaramos la clave, que hace la función del indice
+	es decir, invoca el valor en cuestión.
+
+	Se declaran de la siguiente manera:
+	const obj = {
+		key1 : "valor1"
+		keyn : "valorn"
+	};
+
+	* Propiedades
+	Se conforman de una clave (key) y un valor (value), la clave sirve para identificar el valor, así como 
+	en un array el indice identifica el valor a buscar.
+
+	* Métodos
+	Son propiedades que guardan una función dentro de ellas, es decir, son funciones propias del objeto
+	en el que se declara.
+	Declaración:
+	var obj1 = {
+		metodo: function(){
+			console.log("invocaste el metodo del obj1")
+		} 
+	}
+	Invocación:
+	obj1.metodo();
+	obj1["metodo"]();
+
+	* Bucle `for…in`
+	Es una estructura repetitiva especificamente hecha para objetos, ya que, recorre cada clave del objeto
+	y finaliza cuando se hayan iterado todas las claves.
+	Sintaxis:
+	for(const key in nomObjeto){
+		//codigo a iterar
+	}
+
+	* Notación de puntos vs notación de corchetes
+	Se usan para invocar los valores de un objeto con la clave de esta.
+	La notación de puntos:
+		nomObjeto.key;
+		nomObjeto.keyMetodo(); //Los parentesis solo se ponen con metodos
+	La notación de corchetes:
+		nomObjeto["key"]; //La clave se debe ser una cadena o un número dentro de los corchetes
+		nomObjeto["keyMetodo"](); //Los parentesis solo se ponen con metodos
+		También se pueden usar variables para invocar una clave, es como más se usa:
+		var ejemplo = "keyObjeto";
+		nomObjeto[ejemplo] // Aqui se pone la variable tal cual, sin comillas.

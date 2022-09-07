@@ -159,7 +159,7 @@ function empiezaConNueve(n) {
   //Desarrolle una función que recibe como parámetro un número entero n. Debe retornar true si el entero
   //inicia con 9 y false en otro caso.
   //Escribe tu código aquí
-  if (String(n).startsWith(9)) {
+  if (String(n)[0]=="9") {
     return true;
   } else {
     return false;
@@ -246,7 +246,6 @@ function continueStatement(numero) {
   let newArray = [];
   for (let i = 0; i < 10; i++) {
     if (i === 5) {
-      // return "Se interrumpió la ejecución"
       continue;
     }
     numero += 2;
