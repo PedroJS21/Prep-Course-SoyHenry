@@ -1,0 +1,12 @@
+1. En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+* `prototype`:
+JS esta basado en prototipos, estos son mecanismos por los cuales se pueden heredar atributos y 
+métodos y a partir de ellos se generan instancias (objetos). A partir del 2015 JS permitio crear 
+clases que en el compilador son tratados como prototipos, esto para facilitar su escritura.
+
+* _Constructors_ (de Clases)
+Para crear un prototipo se necesita de un constructor ya que este inicializa los atributos de este mismo,
+el proceso de crear un prototipo se realiza con una función constructora. En las clases es más simple,
+ya que la clase tiene dentro una función constructora y por otro lado, los metodos a declarar, no como
+los prototipos que se hacen por separado.
