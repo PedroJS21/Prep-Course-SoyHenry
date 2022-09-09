@@ -1,0 +1,24 @@
+1. En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+* Funciones Callback:
+Un Callback o Función Callback, es, como lo indica su nombre, una función que puede ser pasada a otra 
+función como argumento que será ejecutado después de completar alguna operación.
+
+por ejemplo:
+
+function modify(str, cb){
+    //hacemos algo...
+    str.replace(str[0], str[0].toUpperCase());
+    //después de hacer algo
+    cb(str);
+    
+    return str;
+}
+
+let ejemplo = "hola"
+
+modify(ejemplo, function(string){
+    console.log(`Ahora la primera letra es mayuscula y esta palabra tiene ${string.length} caracteres.`)
+})
+//el function(string){...} es el callback que usamos como argumento, en este caso le damos la función de
+mostrar en consola cierta información.
