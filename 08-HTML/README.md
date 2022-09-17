@@ -50,7 +50,7 @@ HTML define una serie de elementos (o etiquetas, o tags) que serviran para delim
 Algunos tags html, por su naturaleza, no necesitan tener nada *adentro*. Por lo tanto podemos abreviar su escritura y en vez de abrir y cerrar el tag, simplemente agregamos un "/" antes del bracket final.
 
 ```html
-<img src="http://imagen.com/img.jpg" />
+<img src="http://..." />
 ```
 
 ### Atributos
